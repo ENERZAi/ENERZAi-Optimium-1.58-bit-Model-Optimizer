@@ -1,0 +1,7 @@
+services:
+  qualcomm-containers_optimium_whisper:
+    image: harbor.edgesync.cloud/enerzai-solution/qualcomm-containers-optimium-whisper:latest
+    container_name: qualcomm-containers-optimium-whisper-container
+    working_dir: /workspace
+    command: tail -f /dev/null
+    network_mode: "host"
