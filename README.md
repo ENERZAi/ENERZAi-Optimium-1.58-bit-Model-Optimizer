@@ -71,6 +71,7 @@ model.overlap_tokens = [] # Reset if audio is not continuous
 ## 7. Best Practices & Known Limitations
 *   **Audio Overlap:** The model is designed to process audio in 10-second units. For continuous audio exceeding 10 seconds, a 2-second overlap is recommended to achieve optimal performance. If the audio segments are not continuous, **model.overlap_tokens** must be reset.
 *   **Model Performance:** This model is designed to run exclusively on the CPU.
+*   For organizations seeking enhanced real-time capabilities, please contact ENERZAi.
 
 ## 8. Performance Benchmarking
 
